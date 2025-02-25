@@ -57,7 +57,7 @@ ecma-shopping-cart/
 **Clone the Repository:**
    ```bash
    git clone <repository-url>
-   cd shopping-cart
+   cd ecma-shopping-cart
    ```
 ***Serve the Files with a Local Web Server:***
 - Using VS Code Live Server: Right-click on index.html and select "Open with Live Server".
