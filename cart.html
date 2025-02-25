@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Cart - Shopping Cart</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header class="text-white py-3 shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <h1 class="h3 mb-0">Latest ECMA Script</h1>
+            </div>
+            <a href="index.html" class="btn btn-light">Back to Products</a>
+        </div>
+    </header>
+    <div id="alert-container" class="container mt-3"></div>
+    <main class="container my-4">
+        <section class="cart-section">
+            <h2 class="mb-4">Your Cart</h2>
+            <h4 class="mb-4 text-end total-price">Total: ₹<span id="total-price">0.00</span></h4>
+            <div id="cart-list" class="row"></div>
+        </section>
+    </main>
+    <script type="module" src="cartPage.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.js"></script>
+</body>
+</html>

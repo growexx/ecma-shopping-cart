@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f6fa;
+}
+.card {
+    margin-bottom: 20px;
+}
+.alert {
+    transition: opacity 0.5s ease-out;
+}
+header {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.btn-mb-8 {
+    margin-bottom: 8px !important;
+}
+
+.total-price {
+    margin-top: -4.5%;
+}
+
+.card {
+    background: linear-gradient(to right, #4e97c840, #8f94fb52);
+}
+
+.card:hover {
+    background: linear-gradient(45deg, #dd913b38, #9ed2cc30);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
