@@ -44,7 +44,7 @@ function renderCart() {
                 <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">${item.name}</h5>
-                    <p class="card-text">Price: $${item.price.toFixed(2)}</p>
+                    <p class="card-text">Price: ₹${item.price.toFixed(2)}</p>
                     <p class="card-text">Quantity: ${item.quantity}</p>
                     <div class="btn-group mb-2" role="group">
                     <button class="btn btn-secondary minus" data-id="${item.id}">−</button>
